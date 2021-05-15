@@ -1,0 +1,35 @@
+# Monster Game template
+print("Hello, Welcome to the Monster Game")
+print("What is your name? ")
+player = raw_input()
+print("Hello, " + player)
+print("Who is your worst enemy? ")
+monster = raw_input()
+print("Okay, you are going to play a game against " + monster)
+player_health_points = 1000
+monster_health_points = 1000
+print("You can attack the monster (1)."
+      "Heal yourself (2)."
+      "Ask what the current status of the fight is. (3)")
+print("What do you want to do?")
+next_action = raw_input()  # type: int
+for num in next_action:
+    if next_action == 1
+    monster_health_points = monster_health_points - 10
+        print(num)
+        print("Great move!")
+        print("Now Monster will attack back!")
+    elif next_action == 2:
+        print(num)
+        print("Healing..")
+    player_health_points = player_health_points + 10
+    else:
+        print('The score now is {} : {}'.format(player_health_point)(monster_health_points))
+def Score():
+    if player_health_points > monster_health_points:
+        print("You win!")
+        print("Do you want to play another game?")
+    elif player_health_points == monster_health_points:
+        print("Its a tie! Try again")
+    else:
+        print("Game over")
